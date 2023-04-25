@@ -1,0 +1,14 @@
+cifar10:/mnt/data/cifar10
+cifar10_gen:/mnt/data/cifar5m/cifar5m_part0.npz
+cifar10_gen_dict:/mnt/subl2i.pickle
+advcifar10:/mnt/data/robustcifar10/
+cifar10c:/mnt/data/CIFAR10_C
+cifar100:/mnt/data/cifar100
+svhn:/mnt/data/svhn
+mnist:/mnt/data/mnist
+mnistc:/mnt/data/mnist_c
+fmnist:/mnt/data/fmnist
+fmnistc:/mnt/data/FMNIST_C
+kmnist:/mnt/data/kmnist
+imagenet:/mnt/data/imagenet
+models:/mnt/models/
