@@ -1,0 +1,18 @@
+{
+  'preprocessing':{
+    'resize':{
+      'size':32
+    },
+    'ccrop':{
+      'size':32
+    },
+  },
+  'transform':{
+    'cutout':{
+      'p':0.3,
+      'params':{
+        'n_holes':1, 'length':16
+      }
+    },
+  },
+}

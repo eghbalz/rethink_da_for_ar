@@ -1,0 +1,43 @@
+{
+  'preprocessing':{
+    'resize':{
+      'size':32
+    },
+    'ccrop':{
+      'size':32
+    },
+  },
+  'transform':{
+    'rcrop':{
+      'p':0.5,
+      'params':{
+        'size':32, 'padding':4
+      }
+    },
+    'hflip':{
+      'p':0.5,
+      'params':{}
+    },
+    'cjitter':{
+      'p':0.5,
+      'params':{
+        'brightness':.25, 'contrast':.25, 'saturation':.25, 'hue':0
+      }
+    },
+    'rrot':{
+      'p':0.5,
+      'params':{
+        'degrees':2
+      }
+    },
+  },
+  'fwd-pass':{
+    'manmixup':{
+      'p':0.9,
+      'params':{
+        'alpha':2.,
+        'layer_ids':[0,1,2,3]
+      }
+    },
+  }
+}

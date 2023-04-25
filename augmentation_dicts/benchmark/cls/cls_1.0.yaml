@@ -1,0 +1,34 @@
+{
+  'preprocessing':{
+    'resize':{
+      'size':32
+    },
+    'ccrop':{
+      'size':32
+    },
+  },
+  'transform':{
+    'rcrop':{
+  'p':1.0,
+      'params':{
+        'size':32, 'padding':4
+      }
+    },
+    'hflip':{
+  'p':1.0,
+      'params':{}
+    },
+    'cjitter':{
+  'p':1.0,
+      'params':{
+        'brightness':.25, 'contrast':.25, 'saturation':.25, 'hue':0
+      }
+    },
+    'rrot':{
+  'p':1.0,
+      'params':{
+        'degrees':2
+      }
+    },
+  },
+}

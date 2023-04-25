@@ -1,0 +1,16 @@
+{
+  'preprocessing':{
+    'resize':{
+      'size':32
+    },
+    'ccrop':{
+      'size':32
+    },
+  },
+  'transform':{
+    'pickled_trans':{
+      'p':0.3,
+      'params':{}
+    },
+  },
+}

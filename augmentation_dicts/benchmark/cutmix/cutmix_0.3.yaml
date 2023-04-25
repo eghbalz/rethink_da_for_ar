@@ -1,0 +1,18 @@
+{
+  'preprocessing':{
+    'resize':{
+      'size':32
+    },
+    'ccrop':{
+      'size':32
+    },
+  },
+  'fwd-pass':{
+    'cutmix':{
+      'p':0.3,
+      'params':{
+        'alpha':1.
+      }
+    },
+  }
+}
